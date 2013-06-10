@@ -69,6 +69,7 @@
 	webView.scalesPageToFit = NO;	//Can user zoom in and out?
 	webView.contentMode = UIViewContentModeRedraw;
     
+    
 	[webView loadData: data
              MIMEType: @"application/json"
      textEncodingName: @"NSUTF8StringEncoding"
